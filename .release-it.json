@@ -3,7 +3,6 @@
 		"release": true
 	},
 	"git": {
-		"commitMessage": "release: v${version}",
 		"commitArgs": ["--no-verify", "-n"]
 	},
 	"npm": {

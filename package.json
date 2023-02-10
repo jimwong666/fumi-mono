@@ -70,5 +70,13 @@
 				"enable": false
 			}
 		}
+	},
+	"release-it": {
+		"git": {
+			"commitArgs": [
+				"--no-verify",
+				"-n"
+			]
+		}
 	}
 }

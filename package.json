@@ -8,7 +8,7 @@
 	"scripts": {
 		"changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
 		"commit": "git-cz && git push",
-		"release": "release-it HUSKY=0"
+		"release": "HUSKY=0 release-it"
 	},
 	"config": {
 		"commitizen": {
@@ -20,6 +20,7 @@
 		"conventional-changelog-cli": "^2.2.2",
 		"conventional-changelog-cmyr-config": "^2.0.4",
 		"cz-lerna-changelog": "^2.0.3",
+		"husky": "^8.0.3",
 		"lerna": "^6.4.1",
 		"release-it": "^15.6.0"
 	},

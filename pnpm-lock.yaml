@@ -8,6 +8,7 @@ importers:
       conventional-changelog-cli: ^2.2.2
       conventional-changelog-cmyr-config: ^2.0.4
       cz-lerna-changelog: ^2.0.3
+      husky: ^8.0.3
       lerna: ^6.4.1
       release-it: ^15.6.0
     devDependencies:
@@ -15,6 +16,7 @@ importers:
       conventional-changelog-cli: 2.2.2
       conventional-changelog-cmyr-config: 2.0.4
       cz-lerna-changelog: 2.0.3_lerna@6.4.1
+      husky: 8.0.3
       lerna: 6.4.1
       release-it: 15.6.0
 

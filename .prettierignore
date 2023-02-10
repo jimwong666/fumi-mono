@@ -1,0 +1,11 @@
+**/*.svg
+.vscode
+
+**/.umi/**/*
+**/.umi-production/**/*
+**/*.min.js
+**/node_modules/**/*
+**/dist/**/*
+**/log/**/*
+
+docs/**/*

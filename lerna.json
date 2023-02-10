@@ -8,5 +8,6 @@
 			"ignoreChanges": ["ignored-file", "*.md"]
 		}
 	},
-	"npmClient": "pnpm"
+	"npmClient": "pnpm",
+	"workspaces": ["packages/*"]
 }

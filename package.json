@@ -1,5 +1,6 @@
 {
 	"name": "root",
+	"version": "0.0.1",
 	"private": true,
 	"description": "fumi",
 	"workspaces": [
@@ -16,6 +17,7 @@
 		}
 	},
 	"devDependencies": {
+		"@release-it/conventional-changelog": "^5.1.1",
 		"commitizen": "^4.3.0",
 		"conventional-changelog-cli": "^2.2.2",
 		"conventional-changelog-cmyr-config": "^2.0.4",
@@ -70,14 +72,5 @@
 				"enable": false
 			}
 		}
-	},
-	"release-it": {
-		"git": {
-			"commitArgs": [
-				"--no-verify",
-				"-n"
-			]
-		}
-	},
-	"version": "0.0.1"
+	}
 }

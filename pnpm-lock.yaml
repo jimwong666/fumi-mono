@@ -4,19 +4,19 @@ importers:
 
   .:
     specifiers:
+      '@release-it/conventional-changelog': ^5.1.1
       commitizen: ^4.3.0
       conventional-changelog-cli: ^2.2.2
       conventional-changelog-cmyr-config: ^2.0.4
       cz-lerna-changelog: ^2.0.3
-      husky: ^8.0.3
       lerna: ^6.4.1
       release-it: ^15.6.0
     devDependencies:
+      '@release-it/conventional-changelog': 5.1.1_release-it@15.6.0
       commitizen: 4.3.0
       conventional-changelog-cli: 2.2.2
       conventional-changelog-cmyr-config: 2.0.4
       cz-lerna-changelog: 2.0.3_lerna@6.4.1
-      husky: 8.0.3
       lerna: 6.4.1
       release-it: 15.6.0
 
@@ -4131,6 +4131,19 @@ packages:
       classnames: 2.3.2
       rc-trigger: 5.3.4
       rc-util: 5.27.2
+
+  /@release-it/conventional-changelog/5.1.1_release-it@15.6.0:
+    resolution: {integrity: sha512-QtbDBe36dQfzexAfDYrbLPvd5Cb5bMWmLcjcGhCOWBss7fe1/gCjoxDULVz+7N7G5Nu2UMeBwHcUp/w8RDh5VQ==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      release-it: ^15.4.1
+    dependencies:
+      concat-stream: 2.0.0
+      conventional-changelog: 3.1.25
+      conventional-recommended-bump: 6.1.0
+      release-it: 15.6.0
+      semver: 7.3.8
+    dev: true
 
   /@rollup/pluginutils/5.0.2:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}

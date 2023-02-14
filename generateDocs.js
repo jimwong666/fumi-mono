@@ -45,22 +45,6 @@ features:
 
 ` + _chunk,
       );
-    }
-    // 根目录的readme.zh-CN.md
-    else if (this._fromFileDir.indexOf('\\README.en-US.md') > 0) {
-      // 			_chunk = Buffer.from(
-      // 				chunk.toString().replace('简体中文 | [English](./README.md)', ''),
-      // 			);
-      // 			this.push(
-      // 				`---
-      // title: 关于SSSS的项目文档
-      // hero:
-      //   title: SSSS
-      //   desc: 📖 关于SSSS的项目文档
-      // footer: 😊😁😎😉😜🤞✌
-      // ---
-      // ` + _chunk,
-      // 			);
     } else {
       this.push(chunk);
     }
@@ -121,11 +105,11 @@ const getDir = function (dirName) {
   recursion('./packages');
   fromFilePath.push(
     path.resolve(__dirname, './README.md'),
-    // path.resolve(__dirname, './README.zh-CN.md'),
+    path.resolve(__dirname, './CHANGELOG.md'),
   );
   toFilePath.push(
     path.resolve(__dirname, `./${dirName}/index.md`),
-    // path.resolve(__dirname, `./${dirName}/index.zh-CN.md`),
+    path.resolve(__dirname, `./${dirName}/changelog.md`),
   );
   return [fromFilePath, toFilePath];
 };

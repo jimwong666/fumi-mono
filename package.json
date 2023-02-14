@@ -6,31 +6,15 @@
   "scripts": {
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s -r 0",
     "commit": "git-cz && git push",
-    "doc": "node generateDocs.js",
+    "g-docs": "node generateDocs.js",
     "dumi": "cross-env dumi dev",
-    "dumi-build": "cross-env APP_ROOT=dumi dumi build",
+    "dumi-build": "cross-env dumi build",
     "release": "release-it --only-version"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,tsx,css,sass,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.1",

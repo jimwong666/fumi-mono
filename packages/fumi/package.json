@@ -8,7 +8,7 @@
 		"build": "umi build",
 		"dev": "umi dev",
 		"postinstall": "umi setup",
-		"prepare": "",
+		"prepare": "cd ../.. && husky install .husky",
 		"setup": "umi setup",
 		"start": "npm run dev"
 	},

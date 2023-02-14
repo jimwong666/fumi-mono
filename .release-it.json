@@ -1,15 +1,14 @@
 {
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "${version}",
+    "releaseNotes": "echo '${changelog}' | sed 1,2d"
   },
   "git": {
     "commitMessage": "chore: release v${version}"
   },
   "npm": {
     "publish": false
-  },
-  "hooks": {
-    "after:bump": "echo 更新版本成功"
   },
   "plugins": {
     "@release-it/conventional-changelog": {

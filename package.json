@@ -24,6 +24,7 @@
     "conventional-changelog-cli": "^2.2.2",
     "conventional-changelog-cmyr-config": "^2.0.4",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "cz-lerna-changelog": "^2.0.3",
     "dumi": "^2.1.9",
     "lerna": "^6.4.1",

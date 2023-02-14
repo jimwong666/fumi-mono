@@ -4,7 +4,10 @@
   },
   "git": {
     "commitMessage": "release: v${version}",
-    "commitArgs": ["--no-verify", "-n"]
+    "commitArgs": ["--no-verify", "-n"],
+    "commit": true,
+    "tag": true,
+    "push": true
   },
   "npm": {
     "publish": false
@@ -13,9 +16,57 @@
     "after:bump": "echo 更新版本成功"
   },
   "plugins": {
-    "@release-it-plugins/lerna-changelog": {
+    "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
-      "launchEditor": false
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "✨ 新功能"
+          },
+          {
+            "type": "fix",
+            "section": "🐛 Bug 修复"
+          },
+          {
+            "type": "perf",
+            "section": "⚡ 性能优化"
+          },
+          {
+            "type": "revert",
+            "section": "⏪ 回退"
+          },
+          {
+            "type": "refactor",
+            "section": "♻ 代码重构"
+          },
+          {
+            "type": "docs",
+            "section": "📝 文档"
+          },
+          {
+            "type": "style",
+            "section": "💄 风格"
+          },
+          {
+            "type": "test",
+            "section": "✅ 测试"
+          },
+          {
+            "type": "build",
+            "section": "👷‍ 构建"
+          },
+          {
+            "type": "ci",
+            "section": "🔧 CI 配置"
+          },
+          {
+            "chore": "fix",
+            "section": "🎫 其他更新"
+          }
+        ]
+      }
     }
   }
 }

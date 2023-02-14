@@ -1,79 +1,31 @@
 {
-	"name": "root",
-	"version": "0.2.1",
-	"private": true,
-	"description": "fumi",
-	"scripts": {
-		"changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
-		"commit": "git-cz && git push",
-		"doc": "node generateDocs.js",
-		"dumi": "cross-env dumi dev",
-		"dumi-build": "cross-env APP_ROOT=dumi dumi build",
-		"release": "release-it"
-	},
-	"config": {
-		"commitizen": {
-			"path": "cz-lerna-changelog"
-		}
-	},
-	"devDependencies": {
-		"@release-it-plugins/lerna-changelog": "^5.0.0",
-		"@release-it/conventional-changelog": "^5.1.1",
-		"commitizen": "^4.3.0",
-		"conventional-changelog-cli": "^2.2.2",
-		"conventional-changelog-cmyr-config": "^2.0.4",
-		"cross-env": "^7.0.3",
-		"cz-lerna-changelog": "^2.0.3",
-		"dumi": "^2.1.9",
-		"lerna": "^6.4.1",
-		"release-it": "^15.6.0"
-	},
-	"changelog": {
-		"bugsUrl": "https://redmine.example.com/issues/",
-		"authorName": true,
-		"authorEmail": true,
-		"language": "zh",
-		"settings": {
-			"feat": {
-				"title": "✨ 新功能",
-				"enable": true
-			},
-			"fix": {
-				"title": "🐛 Bug 修复"
-			},
-			"perf": {
-				"title": "⚡ 性能优化"
-			},
-			"revert": {
-				"title": "⏪ 回退"
-			},
-			"refactor": {
-				"title": "♻ 代码重构"
-			},
-			"docs": {
-				"title": "📝 文档",
-				"enable": false
-			},
-			"style": {
-				"title": "💄 风格",
-				"enable": false
-			},
-			"test": {
-				"title": "✅ 测试",
-				"enable": false
-			},
-			"build": {
-				"title": "👷‍ 构建",
-				"enable": false
-			},
-			"ci": {
-				"title": "🔧 CI 配置",
-				"enable": false
-			},
-			"chore": {
-				"title": "🎫 其他更新",
-				"enable": false
-			}
-		}
-	}
+  "name": "root",
+  "version": "0.2.1",
+  "private": true,
+  "description": "fumi",
+  "scripts": {
+    "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
+    "commit": "git-cz && git push",
+    "doc": "node generateDocs.js",
+    "dumi": "cross-env dumi dev",
+    "dumi-build": "cross-env APP_ROOT=dumi dumi build",
+    "release": "release-it"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-lerna-changelog"
+    }
+  },
+  "devDependencies": {
+    "@release-it-plugins/lerna-changelog": "^5.0.0",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-cmyr-config": "^2.0.4",
+    "cross-env": "^7.0.3",
+    "cz-lerna-changelog": "^2.0.3",
+    "dumi": "^2.1.9",
+    "lerna": "^6.4.1",
+    "release-it": "^15.6.0"
+  }
 }

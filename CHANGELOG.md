@@ -18,6 +18,8 @@
 
 
 
+## 0.2.1 (2023-02-14)
+
 ## [0.0.1](https://github.com/jimwong666/fumi-mono/compare/7f24a26...0.0.1) (2023-02-10)
 
 

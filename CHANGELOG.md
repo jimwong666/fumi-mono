@@ -1,5 +1,12 @@
 
 
+### [0.2.8](https://github.com/jimwong666/fumi-mono/compare/0.2.7...0.2.8) (2023-02-14)
+
+
+### ✨ 新功能
+
+* **rr:** r ([1a8df31](https://github.com/jimwong666/fumi-mono/commit/1a8df31ac4b3d010bc536693e7137a57e20b56b3))
+
 ### [0.2.7](https://github.com/jimwong666/fumi-mono/compare/0.2.6...0.2.7) (2023-02-14)
 
 ### [0.2.6](https://github.com/jimwong666/fumi-mono/compare/0.2.5...0.2.6) (2023-02-14)

@@ -9,7 +9,7 @@
     "doc": "node generateDocs.js",
     "dumi": "cross-env dumi dev",
     "dumi-build": "cross-env APP_ROOT=dumi dumi build",
-    "release": "release-it"
+    "release": "release-it --only-version"
   },
   "config": {
     "commitizen": {

@@ -5,7 +5,7 @@
   "description": "fumi",
   "scripts": {
     "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
-    "commit": "git-cz && git push",
+    "commit": "git-cz",
     "doc": "node generateDocs.js",
     "dumi": "cross-env dumi dev",
     "dumi-build": "cross-env APP_ROOT=dumi dumi build",

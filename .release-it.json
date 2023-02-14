@@ -1,14 +1,9 @@
 {
   "github": {
-    "release": true,
-    "releaseName": "${version}",
-    "releaseNotes": "echo '${changelog}' | sed 1,2d"
+    "release": true
   },
   "git": {
     "commitMessage": "chore: release v${version}"
-  },
-  "npm": {
-    "publish": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {

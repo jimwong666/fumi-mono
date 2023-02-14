@@ -9,7 +9,7 @@
     "g-docs": "node generateDocs.js",
     "dumi": "cross-env dumi dev",
     "dumi-build": "cross-env dumi build",
-    "release": "g-docs && dumi-build && release-it --only-version"
+    "release": "node generateDocs.js && cross-env dumi build && release-it --only-version"
   },
   "config": {
     "commitizen": {

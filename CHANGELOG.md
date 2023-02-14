@@ -1,5 +1,12 @@
 
 
+### [0.2.10](https://github.com/jimwong666/fumi-mono/compare/0.2.9...0.2.10) (2023-02-14)
+
+
+### 🐛 Bug 修复
+
+* **test:** test ([80e70d7](https://github.com/jimwong666/fumi-mono/commit/80e70d7f86448a93d383ca19f59c9fb4d36ee0ec))
+
 ### [0.2.9](https://github.com/jimwong666/fumi-mono/compare/0.2.8...0.2.9) (2023-02-14)
 
 

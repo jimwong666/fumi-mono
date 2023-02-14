@@ -13,7 +13,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-lerna-changelog"
+      "path": "./node_modules/cz-lerna-changelog"
     }
   },
   "devDependencies": {

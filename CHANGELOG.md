@@ -1,3 +1,19 @@
+
+
+### [0.2.9](https://github.com/jimwong666/fumi-mono/compare/0.2.8...0.2.9) (2023-02-14)
+
+
+### 🐛 Bug 修复
+
+* **test:** test ([f001ffd](https://github.com/jimwong666/fumi-mono/commit/f001ffd35987c8d5f410192fa7c02aef8b0254d1))
+
+
+### ✨ 新功能
+
+* **d:** d ([b44eacd](https://github.com/jimwong666/fumi-mono/commit/b44eacdb55d01c2738a6132886c53dab1101a4fd))
+* test ([55194bc](https://github.com/jimwong666/fumi-mono/commit/55194bcd8a3cae95af8bd0c8a67c42b3b3f5c332))
+* **t:** te ([6eb7cfe](https://github.com/jimwong666/fumi-mono/commit/6eb7cfe17a0c50a7feee3ed5a727b0e2594090f3))
+
 ## <small>0.2.8 (2023-02-14)</small>
 
 * chore: release v0.2.8 ([a6a5598](https://github.com/jimwong666/fumi-mono/commit/a6a5598))
@@ -95,6 +111,3 @@
 * feat(add depend): a ([fe7cba2](https://github.com/jimwong666/fumi-mono/commit/fe7cba2))
 * feat(fumi/packages.json): modify ([beb19c8](https://github.com/jimwong666/fumi-mono/commit/beb19c8))
 * feat(sd): sd ([baa8d89](https://github.com/jimwong666/fumi-mono/commit/baa8d89))
-
-
-

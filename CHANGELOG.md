@@ -1,5 +1,13 @@
 
 
+# [0.2.0](https://github.com/jimwong666/fumi-mono/compare/0.1.0...0.2.0) (2023-02-14)
+
+
+### Features
+
+* **all:** test ([54275a5](https://github.com/jimwong666/fumi-mono/commit/54275a5fd0f5d82ae9c60d3efca2c3a1fe8610e9))
+* e ([d33ed5c](https://github.com/jimwong666/fumi-mono/commit/d33ed5cc53df6a0705f7e3025a6b9cdf57f215c5))
+
 # [0.1.0](https://github.com/jimwong666/fumi-mono/compare/0.0.1...0.1.0) (2023-02-10)
 
 

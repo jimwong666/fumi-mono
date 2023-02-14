@@ -21,30 +21,30 @@ class MyTransform extends Transform {
       _chunk = Buffer.from(
         chunk.toString().replace('English | [简体中文](./README.zh-CN.md)', ''),
       );
-      this.push(
-        `---
-hero:
-  title: Fumi
-  description: 基于 Umi 的最佳实践 - 企业级前端开发框架
-  actions:
-    - text: 快速上手
-      link: /
-    - text: Git
-      link: /
-features:
-  - title: 专业
-    emoji: 💎
-    description: 提供 Umi 的最佳实践和简约配置
-  - title: 多样
-    emoji: 🌈
-    description: 提供足以覆盖多种场景的组件 Demo
-  - title: 快速
-    emoji: 🚀
-    description: 继承 Umi 的急速开发与快速构建
----
+//       this.push(
+//         `---
+// hero:
+//   title: Fumi
+//   description: 基于 Umi 的最佳实践 - 企业级前端开发框架
+//   actions:
+//     - text: 快速上手
+//       link: /
+//     - text: Git
+//       link: /
+// features:
+//   - title: 专业
+//     emoji: 💎
+//     description: 提供 Umi 的最佳实践和简约配置
+//   - title: 多样
+//     emoji: 🌈
+//     description: 提供足以覆盖多种场景的组件 Demo
+//   - title: 快速
+//     emoji: 🚀
+//     description: 继承 Umi 的急速开发与快速构建
+// ---
 
-` + _chunk,
-      );
+// ` + _chunk,
+//       );
     } else {
       this.push(chunk);
     }
@@ -104,11 +104,13 @@ const getDir = function (dirName) {
   };
   recursion('./packages');
   fromFilePath.push(
+    path.resolve(__dirname, './public/index.md'),
     path.resolve(__dirname, './README.md'),
     path.resolve(__dirname, './CHANGELOG.md'),
   );
   toFilePath.push(
     path.resolve(__dirname, `./${dirName}/index.md`),
+    path.resolve(__dirname, `./${dirName}/start.md`),
     path.resolve(__dirname, `./${dirName}/changelog.md`),
   );
   return [fromFilePath, toFilePath];

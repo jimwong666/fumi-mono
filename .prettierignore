@@ -1,5 +1,9 @@
 **/*.svg
 .vscode
+.dumirc.js
+node_modules
+public/**/*
+
 
 **/.umi/**/*
 **/.umi-production/**/*

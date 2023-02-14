@@ -1,8 +1,8 @@
 // .stylelintrc.js
 module.exports = {
-	// Umi 项目
-	extends: [require.resolve('umi/stylelint')],
-	rules: {
-		// your rules
-	},
+  // Umi 项目
+  extends: [require.resolve('umi/stylelint')],
+  rules: {
+    // your rules
+  },
 };

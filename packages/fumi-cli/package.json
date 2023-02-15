@@ -16,9 +16,6 @@
   "bin": {
     "fumi": "index.js"
   },
-  "directories": {
-    "src": "src"
-  },
   "scripts": {
     "preminor": "npm version preminor",
     "minor": "npm version minor",
@@ -42,6 +39,5 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "gitHead": "02507a30088caa27d6339dd31374dbb2b8bcbf1d"
+  }
 }

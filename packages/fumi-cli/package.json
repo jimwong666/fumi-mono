@@ -11,10 +11,13 @@
     "url": "git+https://github.com/jimwong666/fumi-mono.git"
   },
   "license": "ISC",
-  "author": "wangjian0818",
+  "author": "jim <798165604@qq.com>",
   "main": "index.js",
   "bin": {
     "fumi": "index.js"
+  },
+  "directories": {
+    "src": "src"
   },
   "scripts": {
     "preminor": "npm version preminor",
@@ -41,5 +44,5 @@
     "directory": "src",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "e47d1829eea1ec875493efa6cbe5336e96853da7"
+  "gitHead": "02507a30088caa27d6339dd31374dbb2b8bcbf1d"
 }

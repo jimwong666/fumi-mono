@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "description": "based of umi",
-  "author": "wangjian0818",
   "scripts": {
     "build": "umi build",
     "dev": "umi dev",

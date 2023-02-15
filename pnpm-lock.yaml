@@ -103,7 +103,6 @@ importers:
       metalsmith: 2.5.1
       semver: 7.3.8
       shelljs: 0.8.5
-    publishDirectory: src
 
 packages:
   /@ahooksjs/use-request/2.8.15:

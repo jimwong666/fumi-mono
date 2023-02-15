@@ -9,6 +9,7 @@
     "dumi": "node generateDocs.js && cross-env dumi dev",
     "dumi-build": "node generateDocs.js && cross-env dumi build",
     "g-docs": "node generateDocs.js",
+    "publish": "lerna publish",
     "release": "release-it --only-version"
   },
   "config": {

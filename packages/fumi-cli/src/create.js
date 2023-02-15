@@ -102,7 +102,7 @@ module.exports = async function create(projectName) {
         type: 'list',
         default: 'npm',
         message: 'Which package manager you want to use for the project?',
-        choices: ['npm', 'cnpm', 'yarn'],
+        choices: ['npm', 'cnpm', 'yarn', 'pnpm'],
         when: function (answers) {
           return answers.isInstall;
         },

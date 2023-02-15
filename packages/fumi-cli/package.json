@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "a react project cli, help you create a react project with webpack or parcel quickly",
   "keywords": [
-    "react",
     "cli"
   ],
   "homepage": "https://github.com/jimwong666/fumi-mono",

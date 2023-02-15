@@ -1,4 +1,4 @@
-## zl-cli
+## fumi-cli
 
 ### 使用
 

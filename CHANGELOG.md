@@ -1,5 +1,18 @@
 
 
+### [0.3.1](https://github.com/jimwong666/fumi-mono/compare/0.3.0...0.3.1) (2023-02-15)
+
+
+### ✨ 新功能
+
+* **fumi-cli:** 新增包 funi-cli ([7cb5275](https://github.com/jimwong666/fumi-mono/commit/7cb5275bcbf4a9db0d5ff55dac9118b894e0551d))
+* **index.js:** add index.js XXXXXX ([9c6f6ad](https://github.com/jimwong666/fumi-mono/commit/9c6f6ad730c097b4a1ad4c44f47a969d611eda83))
+
+
+### 💄 风格
+
+* **fumi-cli:** 格式更新 ([8a4bb11](https://github.com/jimwong666/fumi-mono/commit/8a4bb11c4f8ae2597e87bf101b237e5b673c22e3))
+
 ## [0.3.0](https://github.com/jimwong666/fumi-mono/compare/0.2.10...0.3.0) (2023-02-14)
 
 

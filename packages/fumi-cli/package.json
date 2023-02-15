@@ -41,7 +41,6 @@
     "shelljs": "^0.8.4"
   },
   "publishConfig": {
-    "directory": "src",
     "registry": "https://registry.npmjs.org/"
   },
   "gitHead": "02507a30088caa27d6339dd31374dbb2b8bcbf1d"

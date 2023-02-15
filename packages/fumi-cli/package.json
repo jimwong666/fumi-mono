@@ -1,17 +1,27 @@
 {
-  "name": "fumi",
+  "name": "fumi-cli",
   "version": "0.0.1",
-  "author": "muneakira",
   "description": "a react project cli, help you create a react project with webpack or parcel quickly",
-  "main": "index.js",
-  "scripts": {
-    "patch": "npm version patch",
-    "minor": "npm version minor",
-    "mmajor": "npm version mmajor",
-    "preminor": "npm version preminor"
+  "keywords": [
+    "react",
+    "cli"
+  ],
+  "homepage": "https://github.com/jimwong666/fumi-mono",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimwong666/fumi-mono.git"
   },
+  "license": "ISC",
+  "author": "wangjian0818",
+  "main": "index.js",
   "bin": {
     "fumi": "index.js"
+  },
+  "scripts": {
+    "preminor": "npm version preminor",
+    "minor": "npm version minor",
+    "mmajor": "npm version mmajor",
+    "patch": "npm version patch"
   },
   "dependencies": {
     "boxen": "^5.1.2",
@@ -28,9 +38,8 @@
     "semver": "^7.3.5",
     "shelljs": "^0.8.4"
   },
-  "keywords": [
-    "react",
-    "cli"
-  ],
-  "license": "ISC"
+  "publishConfig": {
+    "directory": "src",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

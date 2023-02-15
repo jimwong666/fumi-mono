@@ -1,5 +1,7 @@
 
 
+### [0.3.4](https://github.com/jimwong666/fumi-mono/compare/0.3.3...0.3.4) (2023-02-15)
+
 ### [0.3.3](https://github.com/jimwong666/fumi-mono/compare/0.3.2...0.3.3) (2023-02-15)
 
 

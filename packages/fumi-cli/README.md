@@ -1,4 +1,4 @@
-## fumi-cli
+## fumi-test-cli
 
 ### 使用
 

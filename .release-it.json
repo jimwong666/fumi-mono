@@ -3,7 +3,7 @@
     "release": true
   },
   "git": {
-    "commitMessage": "chore: release v${version}",
+    "commitMessage": "chore(release): v${version}",
     "commitArgs": ["--no-verify", "-n"],
     "commit": true,
     "tag": true,

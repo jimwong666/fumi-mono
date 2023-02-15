@@ -95,17 +95,17 @@ program.command('install').action(async () => {
 });
 
 // 检查umi版本是否为4.x
-const checkUmiVersionIs4 = () => {
-  const umiVersionStr = shelljs.exec(`umi -v`, {
-    silent: true,
-  }).stdout;
-  console.log(umiVersionStr);
-  if (umiVersionStr) {
-    return semver.satisfies(umiVersionStr.match(/umi@(\S*)/)[1], '^4');
-  } else {
-    return false;
-  }
-};
+// const checkUmiVersionIs4 = () => {
+//   const umiVersionStr = shelljs.exec(`umi -v`, {
+//     silent: true,
+//   }).stdout;
+//   console.log(umiVersionStr);
+//   if (umiVersionStr) {
+//     return semver.satisfies(umiVersionStr.match(/umi@(\S*)/)[1], '^4');
+//   } else {
+//     return false;
+//   }
+// };
 
 program
   .command('dev')

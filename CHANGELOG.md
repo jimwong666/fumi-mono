@@ -1,5 +1,12 @@
 
 
+### [0.3.3](https://github.com/jimwong666/fumi-mono/compare/0.3.2...0.3.3) (2023-02-15)
+
+
+### ✨ 新功能
+
+* s ([212a778](https://github.com/jimwong666/fumi-mono/commit/212a7782ee0b3662a3d43ca409abfd681e215f96))
+
 ### [0.3.2](https://github.com/jimwong666/fumi-mono/compare/fumi-test-cli@0.0.4...0.3.2) (2023-02-15)
 
 

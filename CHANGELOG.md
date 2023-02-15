@@ -1,5 +1,12 @@
 
 
+### [0.3.2](https://github.com/jimwong666/fumi-mono/compare/fumi-test-cli@0.0.4...0.3.2) (2023-02-15)
+
+
+### ⚡ 性能优化
+
+* 优化性能？ ([f0bf943](https://github.com/jimwong666/fumi-mono/commit/f0bf94325d791a9d333e83d5419abb1b159d7e95))
+
 ### [0.3.1](https://github.com/jimwong666/fumi-mono/compare/0.3.0...0.3.1) (2023-02-15)
 
 

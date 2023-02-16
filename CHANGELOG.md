@@ -1,5 +1,12 @@
 
 
+### [0.3.15](https://github.com/jimwong666/fumi-mono/compare/0.3.14...0.3.15) (2023-02-16)
+
+
+### ✨ Features | 新功能
+
+* **f:** d ([f18b168](https://github.com/jimwong666/fumi-mono/commit/f18b1684a0fe23e3c2eb7ec7d3406e6f15f1f99e))
+
 ### [0.3.14](https://github.com/jimwong666/fumi-mono/compare/0.3.13...0.3.14) (2023-02-16)
 
 

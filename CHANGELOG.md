@@ -1,5 +1,12 @@
 
 
+### [0.3.23](https://github.com/jimwong666/fumi-mono/compare/0.3.22...0.3.23) (2023-02-16)
+
+
+### 📝 Documentation | 文档
+
+* f ([5f65dd4](https://github.com/jimwong666/fumi-mono/commit/5f65dd4cb51dceb4c3b68e67dd524e87fa1dbd71))
+
 ### [0.3.22](https://github.com/jimwong666/fumi-mono/compare/0.3.21...0.3.22) (2023-02-16)
 
 

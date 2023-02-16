@@ -1,5 +1,12 @@
 
 
+### [0.3.19](https://github.com/jimwong666/fumi-mono/compare/0.3.18...0.3.19) (2023-02-16)
+
+
+### ✨ Features | 新功能
+
+* **fg:** g ([2b507c4](https://github.com/jimwong666/fumi-mono/commit/2b507c448c16247c56427f905b76d0bad859b3f6))
+
 ### [0.3.18](https://github.com/jimwong666/fumi-mono/compare/0.3.17...0.3.18) (2023-02-16)
 
 

@@ -1,5 +1,12 @@
 
 
+### [0.3.20](https://github.com/jimwong666/fumi-mono/compare/0.3.19...0.3.20) (2023-02-16)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **ff:** f ([e1bc86a](https://github.com/jimwong666/fumi-mono/commit/e1bc86a37ff94d4dcb488cbf898eb75721a92401))
+
 ### [0.3.19](https://github.com/jimwong666/fumi-mono/compare/0.3.18...0.3.19) (2023-02-16)
 
 

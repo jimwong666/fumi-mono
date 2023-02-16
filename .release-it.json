@@ -14,7 +14,7 @@
   },
   "hooks": {
     "after:bump": "echo 更新版本成功",
-    "after:release": "echo 🔗${repo.host}/${repo.owner}/${repo.project}/${repo.protocol}/${repo.remote}/${repo.repository}/---/${latestVersion}/${changelog}"
+    "after:release": "🔗${repo.host}/${repo.owner}/${repo.project}/${repo.protocol}/${repo.remote}/${repo.repository}/---/${latestVersion}/${changelog}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {

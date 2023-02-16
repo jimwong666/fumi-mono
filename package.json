@@ -10,7 +10,7 @@
     "dumi-build": "node generateDocs.js && cross-env dumi build",
     "g-docs": "node generateDocs.js",
     "publish": "lerna publish",
-    "release": "cross-env NODE_DEBUG=* release-it --only-version"
+    "release": "cross-env NODE_DEBUG=release-it release-it --only-version"
   },
   "config": {
     "commitizen": {

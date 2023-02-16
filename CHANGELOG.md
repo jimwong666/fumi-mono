@@ -1,5 +1,12 @@
 
 
+### [0.3.11](https://github.com/jimwong666/fumi-mono/compare/0.3.10...0.3.11) (2023-02-16)
+
+
+### ✨ Features | 新功能
+
+* **debug:** release 测试 ([0142632](https://github.com/jimwong666/fumi-mono/commit/0142632270fed76fd6139c1b3a239bb83b782335))
+
 ### [0.3.10](https://github.com/jimwong666/fumi-mono/compare/0.3.9...0.3.10) (2023-02-16)
 
 ### [0.3.9](https://github.com/jimwong666/fumi-mono/compare/0.3.8...0.3.9) (2023-02-16)

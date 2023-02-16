@@ -1,6 +1,6 @@
 {
   "github": {
-    "release": false
+    "release": true
   },
   "git": {
     "commitMessage": "chore(release): v${version}",
@@ -13,8 +13,7 @@
     "publish": false
   },
   "hooks": {
-    "after:bump": "echo 更新版本成功",
-    "after:release": "echo &#128507; ${repo.host}/${repo.owner}/${repo.project}/${repo.protocol}/${repo.remote}/${repo.repository}/---/${latestVersion}/${changelog}"
+    "after:bump": "echo 更新版本成功"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
@@ -56,8 +55,12 @@
             "section": "✅ Tests | 测试"
           },
           {
-            "type": "WIP",
-            "section": "⏳‍ Work In Progress | 工作进展中"
+            "type": "build",
+            "section": "👷‍ Build System | 构建"
+          },
+          {
+            "type": "ci",
+            "section": "🔧 Continuous Integration | CI 配置"
           },
           {
             "chore": "chore",

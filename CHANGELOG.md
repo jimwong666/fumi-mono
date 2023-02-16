@@ -1,5 +1,12 @@
 
 
+### [0.3.5](https://github.com/jimwong666/fumi-mono/compare/0.3.4...0.3.5) (2023-02-16)
+
+
+### 📝 Documentation | 文档
+
+* 更新文档配置 ([902b162](https://github.com/jimwong666/fumi-mono/commit/902b1628a8b9ae61192333a9d5448efd1b417571))
+
 ### [0.3.4](https://github.com/jimwong666/fumi-mono/compare/0.3.3...0.3.4) (2023-02-15)
 
 ### [0.3.3](https://github.com/jimwong666/fumi-mono/compare/0.3.2...0.3.3) (2023-02-15)

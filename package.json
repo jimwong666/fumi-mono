@@ -5,7 +5,6 @@
   "description": "fumi",
   "author": "wangjian0818",
   "scripts": {
-    "changelog": "conventional-changelog -p -i CHANGELOG.md -s -r 0",
     "commit": "git-cz && git push",
     "dumi": "node generateDocs.js && cross-env dumi dev",
     "dumi-build": "node generateDocs.js && cross-env dumi build",

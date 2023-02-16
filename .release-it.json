@@ -24,47 +24,43 @@
         "types": [
           {
             "type": "feat",
-            "section": "✨ 新功能"
+            "section": "✨ Features | 新功能"
           },
           {
             "type": "fix",
-            "section": "🐛 Bug 修复"
+            "section": "🐛 Bug Fixes | Bug 修复"
           },
           {
             "type": "perf",
-            "section": "⚡ 性能优化"
+            "section": "⚡ Performance Improvements | 性能优化"
           },
           {
             "type": "revert",
-            "section": "⏪ 回退"
+            "section": "⏪ Reverts | 回退"
           },
           {
             "type": "refactor",
-            "section": "♻ 代码重构"
+            "section": "♻ Code Refactoring | 代码重构"
           },
           {
             "type": "docs",
-            "section": "📝 文档"
+            "section": "📝 Documentation | 文档"
           },
           {
             "type": "style",
-            "section": "💄 风格"
+            "section": "💄 Styles | 风格"
           },
           {
             "type": "test",
-            "section": "✅ 测试"
+            "section": "✅ Tests | 测试"
           },
           {
-            "type": "build",
-            "section": "👷‍ 构建"
+            "type": "WIP",
+            "section": "⏳‍ Work In Progress | 工作进展中"
           },
           {
-            "type": "ci",
-            "section": "🔧 CI 配置"
-          },
-          {
-            "chore": "fix",
-            "section": "🎫 其他更新"
+            "chore": "chore",
+            "section": "🎫 Chores | 其他更新"
           }
         ]
       }
